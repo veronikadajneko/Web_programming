@@ -1,0 +1,12 @@
+$ git log
+commit e0ee647daec86c13c61d157adc86861184fa6de0 (HEAD -> master)
+Author: Veronika <dajneko01@inbox.ru>
+Date:   Tue Feb 11 10:40:29 2020 +0300
+
+    add status
+
+commit d08492ab0c02b0a4cf19ead933764ed8083a5672
+Author: Veronika <dajneko01@inbox.ru>
+Date:   Tue Feb 11 10:38:48 2020 +0300
+
+    add.gitignore
