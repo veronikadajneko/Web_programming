@@ -1,0 +1,138 @@
+{
+	"id": "ec476b09-b035-0f63-bb7d-f422e1e26c25",
+	"name": "music",
+	"description": "",
+	"order": [
+		"8133a9d5-3cb1-7342-3eae-77b7834468eb",
+		"7d34cae6-5686-4523-36a8-9de88eca9737",
+		"effe9d24-d924-09a3-b979-22d2f80a0cb4"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1587490320371,
+	"owner": "11158353",
+	"public": false,
+	"requests": [
+		{
+			"id": "7d34cae6-5686-4523-36a8-9de88eca9737",
+			"headers": "",
+			"headerData": [],
+			"url": "https://itunes.apple.com/search?term=Dua+Lipa&limit=5&media=movie",
+			"queryParams": [
+				{
+					"key": "term",
+					"value": "Dua+Lipa",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "limit",
+					"value": "5",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "media",
+					"value": "movie",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ec476b09-b035-0f63-bb7d-f422e1e26c25",
+			"data": null,
+			"dataMode": "params",
+			"name": "https://itunes.apple.com/search?term=Dua+Lipa&limit=5&media=movie",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1587493104646,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "8133a9d5-3cb1-7342-3eae-77b7834468eb",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://itunes.apple.com/search?term=jack+johnson",
+			"queryParams": [
+				{
+					"key": "term",
+					"value": "jack+johnson",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ec476b09-b035-0f63-bb7d-f422e1e26c25",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://itunes.apple.com/search?term=jack+johnson",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1587492823860,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"limit\": 25,\n\"trackName\":\"Better Together\"\n}"
+		},
+		{
+			"id": "effe9d24-d924-09a3-b979-22d2f80a0cb4",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://itunes.apple.com/search?term=eminem",
+			"queryParams": [
+				{
+					"key": "term",
+					"value": "eminem",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587493363882,
+			"name": "https://itunes.apple.com/search?term=eminem",
+			"description": "",
+			"collectionId": "ec476b09-b035-0f63-bb7d-f422e1e26c25",
+			"responses": [],
+			"rawModeData": "{\n\t\"limit\": 100,\n\t\"media\": \"music\" ,\n\t\"version\": 1,\n\t\"lang\": \"en_us\"\n}"
+		}
+	]
+}
