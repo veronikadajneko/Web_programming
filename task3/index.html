@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 
+<html>
+
     <head>
 
         <meta charset="UTF-8">
@@ -21,7 +23,7 @@
 
             <img class="logo" src="pictures/logo.jpg" alt="Penguin">
 
-            <div class="TWITTNUX">TWITTNUX</div>
+            <div class="pageName">TWITTNUX</div>
 
             <button class="buttonAddPost"><img class="add" src="pictures/add.png" alt="plus"></button>
 
@@ -40,11 +42,13 @@
 
             </div>
 
-         <div class="filter">
+         <form class="filter">
+
+            <label>
 
                 <div class="filterHead">Filter posts</div>
 
-                 <div class="filterUsername">-username: <textarea class="textfild" placeholder="@user_name"></textarea>
+                 <div class="filterUsername">-username: <textarea class="text-fild" placeholder="@user_name"></textarea>
 
                 </div>
 
@@ -66,14 +70,18 @@
 
                 </div>
 
+                </label>
+
                 <button class="buttonFind">Find</button> 
 
-            </div>
+            </form>
 
 
          <main>
 
-         	 <div class="post">
+        <div class="postsFeed">
+
+         	 <article class="post">
 
             	<div class="name">@ar_kud</div>
 
@@ -86,10 +94,10 @@
                 <div class="tag">#фронтендерка</div>
 
                 <button class="buttonLike"><img class="photoLike" src="pictures/like.jpg" alt="like"></button>
-            </div>
+            </article>
 
 
-            <div class="post">
+            <article class="post">
 
             	<div class="name">@eraztuna</div>
 
@@ -103,9 +111,9 @@
 
                 <button class="buttonLike"><img class="photoLike" src="pictures/like.jpg" alt="like"></button>
 
-            </div>
+            </article>
 
-            <div class="post">
+            <article class="post">
 
             	<div class="name">@maxoshka</div>
 
@@ -119,9 +127,9 @@
 
                 <button class="buttonLike"><img class="photoLike" src="pictures/like.jpg" alt="like"></button>
 
-            </div>
+            </article>
 
-            <div class="post">
+            <article class="post">
 
             	<div class="name">@ar_kud</div>
 
@@ -135,9 +143,9 @@
 
                 <button class="buttonLike"><img class="photoLike" src="pictures/like.jpg" alt="like"></button>
 
-            </div>
+            </article>
 
-             <div class="post">
+             <article class="post">
 
                 <div class="name">@VslvaD</div>
 
@@ -151,9 +159,9 @@
 
                 <button class="buttonLike"><img class="photoLike" src="pictures/like.jpg" alt="like"></button>
 
-            </div>
+            </article>
 
-            <div class="post">
+            <article class="post">
 
             	<div class="name">@sstrazdinaa</div>
 
@@ -167,9 +175,9 @@
 
                 <button class="buttonLike"><img class="photoLike" src="pictures/like.jpg" alt="like"></button>
 
-            </div>
+            </article>
 
-            <div class="post">
+            <article class="post">
 
             	<div class="name">@trofima</div>
 
@@ -183,9 +191,9 @@
 
                 <button class="buttonLike"><img class="photoLike" src="pictures/like.jpg" alt="like"></button>
 
-            </div>
+            </article>
 
-            <div class="post">
+            <article class="post">
 
             	<div class="name">@pvolchetskaya</div>
 
@@ -199,9 +207,9 @@
 
                 <button class="buttonLike"><img class="photoLike" src="pictures/like.jpg" alt="like"></button>
 
-            </div>
+            </article>
 
-            <div class="post">
+            <article class="post">
 
             	<div class="name">@veronikchaa</div>
 
@@ -224,9 +232,9 @@
 
                 </div>
 
-            </div>
+            </article>
 
-            <div class="post">
+            <article class="post">
 
             	<div class="name">@la_pank_mne</div>
 
@@ -242,7 +250,9 @@
 
                 <img class="addPhoto" src="pictures/goldrain.jpg" alt="rainphoto">
 
-            </div>
+            </article>
+
+        </div>
 
             <button class="buttonMore">View more</button> 
 
